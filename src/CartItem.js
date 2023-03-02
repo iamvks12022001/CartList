@@ -12,7 +12,7 @@ class CartItem extends React.Component {
   render() {
     return (
       <div>
-        <div>
+        <div style={Style.CartItemGap}>
           <p> ProductName : {this.state.ProductName}</p>
           <p> Price : {this.state.Price}</p>
           <p> Quantity : {this.state.Quantity}</p>
@@ -22,4 +22,9 @@ class CartItem extends React.Component {
   }
 }
 
+const Style = {
+  CartItemGap: {
+    border: "5px solid rgba(0, 0, 0, 0.05)",
+  },
+};
 export default CartItem;
