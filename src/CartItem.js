@@ -12,16 +12,16 @@ class CartItem extends React.Component {
   render() {
     return (
       <div>
-        {/* <div style={Style.CartItemGap}>
+        <div style={Style.CartItemGap}>
           <p> ProductName : {this.state.ProductName}</p>
           <p> Price : {this.state.Price}</p>
           <p> Quantity : {this.state.Quantity}</p>
-        </div> */}
+        </div>
         <div className="right-block">
           <div style={{ fontSize: 25 }}>{this.state.title}</div>{" "}
           {/*inline styling*/}
-          {/* <div style={{color:'#777'}}>Rs: {price}</div>
-	                   <div style={{color:'#777'}}>Qty: {qty}</div> */}
+          <div style={{ color: "#777" }}>Rs: {price}</div>
+          <div style={{ color: "#777" }}>Qty: {qty}</div>
           <div className="cart-item-actions">
             {/* Buttons */}
             <img
